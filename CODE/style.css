@@ -1,0 +1,122 @@
+/* CSS NAV */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+
+.nav-title {
+    font-size: 45px;
+    text-shadow: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 24px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.hdr {
+    background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left, bottom right;
+}
+
+/* FONT */
+.google-sans-mew {
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 0;
+}
+
+/* Banner */
+.bnr {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
+}
+
+.bnrcnt {
+    max-width: 580px;
+}
+
+.bnrcnt h1 {
+    font-size: 85px;
+}
+
+.bnrcnt h3 {
+    font-size: 45px;
+}
+
+.bpfp {
+    width: 580px;
+}
+
+/* Commons */
+main {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.d2 {
+    color: #474747;
+}
+
+.sgb {
+    background-color: #FFF8F3
+}
+
+.sctntl {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.hmeb {
+    color: white;
+    padding: 12px;
+    background-color: orangered;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.hmeb2 {
+    color: orangered;
+    padding: 12px;
+    border: 2px solid orangered;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+/* About section */
+.about {
+    border: 3px solid orangered;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    margin: 130px 150px;
+    text-align: center;
+}
+
+.abtitms {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.abtitm p .d {
+    font-weight: 200;
+}
